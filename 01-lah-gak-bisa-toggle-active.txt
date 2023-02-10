@@ -1,0 +1,12 @@
+Aku coba buat nge set element buat punya class active pakai JS,
+tapi lah kok gak bisa? gak bisanya itu gak bisa paka nama 'active',
+kalau visible, atau act malah jalan. Gak tahu kenapa alasannya.
+
+  let currentDropdown;
+  if (isDropdownButton) {
+    currentDropdown = e.target.closest('[data-dropdown]');
+    currentDropdown.classList.toggle("act");
+    // kok kalau pakai nama class active gak jalan ya? kenapa lagi ini?
+  }
+
+TEUING KUMAHA IEU LAMUN MAKE NGARAN NU LAIN MAH JALAN HEY.
